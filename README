@@ -1,0 +1,10 @@
+(c) Copyright 2011 Garrett Wu
+
+
+     gwu-lisp - Java library for generating lisp code.
+
+
+This is a simple collection of Java classes for generating lisp code.
+LispElement objects can be constructed in a tree structure.  Calling
+LispElement.toString() will return the element's representation as
+lisp code.
