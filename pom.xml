@@ -48,8 +48,8 @@
   </dependencies>
 
   <scm>
-    <connection>scm:git:git@github.com:gwu/gwu-lisp.git</connection>
-    <url>scm:git:git@github.com:gwu/gwu-lisp.git</url>
-    <developerConnection>scm:git:git@github.com:gwu/gwu-lisp.git</developerConnection>
+    <connection>scm:git:git://github.com/gwu/gwu-lisp.git</connection>
+    <url>scm:git:git://github.com/gwu/gwu-lisp.git</url>
+    <developerConnection>scm:git:git://github.com/gwu/gwu-lisp.git</developerConnection>
   </scm>
 </project>
