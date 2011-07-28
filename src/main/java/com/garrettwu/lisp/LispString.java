@@ -5,16 +5,16 @@ package com.garrettwu.lisp;
 /**
  * A string value in lisp.
  */
-public class LispStringAtom extends LispAtom {
+public class LispString extends LispAtom {
   /** The string value. */
   private final String mValue;
 
   /**
-   * Creates a new <code>LispStringAtom</code> instance.
+   * Creates a new <code>LispString</code> instance.
    *
    * @param value The string value.
    */
-  public LispStringAtom(String value) {
+  public LispString(String value) {
     super();
     mValue = value;
   }

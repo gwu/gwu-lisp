@@ -18,6 +18,9 @@ public final class LispLiterals {
   /** Marks the end of a string literal. */
   public static final String STRING_END = "\"";
 
+  /** Quotes an element. */
+  public static final String QUOTE_PREFIX = "'";
+
   /** Disable the constructor. */
   private LispLiterals() {}
 }

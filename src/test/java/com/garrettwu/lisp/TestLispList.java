@@ -14,11 +14,11 @@ public class TestLispList {
   public void testList() {
     LispElement list = new LispList(
         Arrays.asList(
-            new LispStringAtom("apple"),
+            new LispString("apple"),
             new LispList(
                 Arrays.asList(
-                    new LispStringAtom("banana"),
-                    new LispStringAtom("carrot"),
+                    new LispString("banana"),
+                    new LispString("carrot"),
                     new LispList()))));
     assertEquals("(\"apple\" (\"banana\" \"carrot\" ()))", list.toString());
   }
